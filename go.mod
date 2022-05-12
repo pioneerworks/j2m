@@ -1,3 +1,3 @@
-module github.com/StevenACoffman/j2m
+module github.com/pioneerworks/j2m
 
-go 1.12
+go 1.18

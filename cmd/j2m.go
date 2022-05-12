@@ -3,9 +3,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/StevenACoffman/j2m"
 	"io/ioutil"
 	"os"
+
+	"github.com/pioneerworks/j2m"
 )
 
 // Expects piped input of Jira Markdown, outputs Github Markdown
@@ -24,7 +25,7 @@ func main() {
 		str = string(stdInBytes)
 	}
 
-	str = j2m.JiraToMD(str)
+	str = jira.JiraToMD(str)
 
 	fmt.Printf("%s\n", str)
 }
