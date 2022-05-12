@@ -25,7 +25,7 @@ func main() {
 		str = string(stdInBytes)
 	}
 
-	str = jira.JiraToMD(str)
+	str = j2m.JiraToMD(str)
 
 	fmt.Printf("%s\n", str)
 }

@@ -1,4 +1,4 @@
-package jira
+package j2m
 
 import (
 	"fmt"
